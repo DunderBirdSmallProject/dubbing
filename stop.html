@@ -1,0 +1,22 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>English Dubbing</title>
+  <link rel="stylesheet" type="text/css" href="css/stop.css">
+  <script type="text/javascript" src="src/ts/stop.js"></script>
+</head>
+
+<body>
+  <div id="board">
+    <input placeholder="input your file's name" id="fileName" />
+    <button onclick="setFileName()">submit</button>
+    <div id="breakPointList"></div>
+  </div>
+  <div id="show">
+    <video src="dubbing.mp4" controls="controls" id="dubbing">Your browser doesn't support the vedio tag</video>
+    <button onclick="setBreakPoint()" id="add">Add breakpoint</button>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+#board {
+    float: left;
+    min-width: 200px;
+    max-width: 300px;
+    width: 20%;
+}
+
+#show {
+    float: left;
+    height: 100%;
+    width: 80%;
+}
+
+#dubbing {
+    width: 80%;
+}
+#add {
+    display: block;
+    margin: 10px;
+}
